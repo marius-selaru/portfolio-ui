@@ -278,6 +278,7 @@ img {
     .hero-section {
         height: 800px;
     }
+
     .projects-grid {
         grid-template-columns: 1fr;
         grid-gap: 50px;
@@ -290,9 +291,8 @@ img {
 
     .contact-form-container {
         width: initial;
+        padding: 20px !important;
     }
-
-
 
     .about-grid {
         grid-template-columns: 1fr;
