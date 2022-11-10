@@ -21,6 +21,7 @@ html, body {
     background: #fff;
     z-index: 1000;
     box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+
 }
 
 .menu-content {
@@ -262,6 +263,13 @@ img {
 }
 
 @media only screen and (max-width: 900px) {
+    .menu-content {
+        padding: 10px 0;
+    }
+    .menu-right{
+        margin-left: 0;
+    }
+
     .container {
         width: 90%;
         margin: 0 auto;
