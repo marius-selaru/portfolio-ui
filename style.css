@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -16,6 +20,7 @@ html, body {
     top: 0;
     background: #fff;
     z-index: 1000;
+    box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
 }
 
 .menu-content {
@@ -39,6 +44,10 @@ html, body {
     text-decoration: none;
     letter-spacing: 1px;
     transition: color .3s;
+}
+
+.menu-bar .menu-right a:hover {
+    color: #facf0f;
 }
 
 .hero-section {
@@ -88,6 +97,11 @@ html, body {
     padding: 20px 80px;
     font-size: 20px;
     text-decoration: none;
+    transition: transform .3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
 }
 
 .btn-medium {
