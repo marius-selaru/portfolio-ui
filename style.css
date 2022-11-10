@@ -27,7 +27,7 @@ html, body {
 .menu-content {
     display: flex;
     align-items: center;
-    padding: 10px 50px;
+    padding: 15px 50px;
 }
 
 .menu-bar .menu-right {
@@ -266,8 +266,10 @@ img {
     .menu-content {
         padding: 10px 0;
     }
+
     .menu-right{
         margin-left: 0;
+
     }
 
     .container {
